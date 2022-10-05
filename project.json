@@ -3,6 +3,7 @@
   "description": "Learning ",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Credentials.Activities": "[2.0.0]",
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
     "UiPath.PDF.Activities": "[3.6.0]",
@@ -41,7 +42,7 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": true
+    "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
