@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ClassicUIPAthCopyText5_6" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2040,1071.2" sap2010:WorkflowViewState.IdRef="ClassicUIPAthCopyText5_6_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ClassicUIPAthCopyText5_6" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2040,1031.2" sap2010:WorkflowViewState.IdRef="ClassicUIPAthCopyText5_6_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="25">
       <x:String>System.Activities</x:String>
@@ -29,7 +29,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="25">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="50">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
@@ -55,27 +55,28 @@
       <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ClassicUIPAthCopyText5_6" sap:VirtualizedContainerService.HintSize="1779.2,1006.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ClassicUIPAthCopyText5_6" sap:VirtualizedContainerService.HintSize="1779.2,966.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Parallel sap:VirtualizedContainerService.HintSize="1737.6,913.6" sap2010:WorkflowViewState.IdRef="Parallel_1">
+    <Parallel sap:VirtualizedContainerService.HintSize="1737.6,873.6" sap2010:WorkflowViewState.IdRef="Parallel_1">
       <Parallel.Variables>
         <Variable x:TypeArguments="x:String" Name="copiedProcessMiningText" />
         <Variable x:TypeArguments="x:String" Name="CopiedRPAText" />
         <Variable x:TypeArguments="x:String" Name="copiedRPAJourneyText" />
       </Parallel.Variables>
-      <Sequence sap:VirtualizedContainerService.HintSize="508,867.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence sap:VirtualizedContainerService.HintSize="508,827.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.4,404.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="www.uipath.com/rpa/robotic-process-automation">
+        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.4,364.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="www.uipath.com/rpa/robotic-process-automation">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -132,13 +133,13 @@
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
       </Sequence>
-      <Sequence sap:VirtualizedContainerService.HintSize="508,867.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence sap:VirtualizedContainerService.HintSize="508,827.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.4,404.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="www.uipath.com/rpa/what-is-process-mining">
+        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.4,364.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="www.uipath.com/rpa/what-is-process-mining">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
@@ -182,7 +183,7 @@
             </ui:Target>
           </ui:TypeInto.Target>
         </ui:TypeInto>
-        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey 'edit  Page 1 content'" sap:VirtualizedContainerService.HintSize="466.4,154.4" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="s" KeyModifiers="Ctrl">
+        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey 'edit  Page 1 content'" sap:VirtualizedContainerService.HintSize="333.6,154.4" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="s" KeyModifiers="Ctrl">
           <ui:SendHotkey.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="319fcd1f-8bfe-40ad-9e73-c3a8213e3201" InformativeScreenshot="3ed6c6b87da0bb7d2a4bc4ca7760d030" Selector="&lt;wnd app='winword.exe' cls='OpusApp' title='Seq2 - Word' /&gt;&lt;uia automationid='Body' name='Page 1 content' role='edit' /&gt;">
               <ui:Target.TimeoutMS>
@@ -195,13 +196,13 @@
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
       </Sequence>
-      <Sequence sap:VirtualizedContainerService.HintSize="508,867.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+      <Sequence sap:VirtualizedContainerService.HintSize="508,827.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.4,404.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" Url="www.uipath.com/rpa/journey">
+        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="466.4,364.8" sap2010:WorkflowViewState.IdRef="OpenBrowser_3" Url="www.uipath.com/rpa/journey">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
