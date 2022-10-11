@@ -6,6 +6,7 @@
     "UiPath.Credentials.Activities": "[2.0.0]",
     "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.14.1]",
     "UiPath.PDF.Activities": "[3.6.0]",
     "UiPath.System.Activities": "[21.10.5]",
     "UiPath.UIAutomation.Activities": "[21.10.6]"
